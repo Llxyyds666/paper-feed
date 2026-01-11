@@ -12,17 +12,31 @@ MAX_ITEMS = 1000
 # ----------------
 # --- 期刊缩写映射 ---
 JOURNAL_ABBR = {
+      # Elsevier / ScienceDirect
     "ScienceDirect Publication: Medical Image Analysis": "MedIA",
-    "ScienceDirect Publication: Pattern Recognition": "PR",
+    "ScienceDirect Publication: Pattern Recognition": "PR", 
     "ScienceDirect Publication: Knowledge-Based Systems": "KBS",
     "ScienceDirect Publication: Neural Networks": "NN",
     "ScienceDirect Publication: Neurocomputing": "NC",
     "ScienceDirect Publication: Computers in Biology and Medicine": "CBM",
-    "IEEE Transactions on Medical Imaging": "TMI",   
-    "IEEE Transactions on Pattern Analysis and Machine Intelligence": "TPAMI",
-    "IEEE Journal of Biomedical and Health Informatics": "JBHI",
+    "ScienceDirect Publication: Biomedical Signal Processing and Control": "BSPC",
+    "ScienceDirect Publication: Artificial Intelligence in Medicine": "AIM",
+    "ScienceDirect Publication: Engineering Applications of Artificial Intelligence": "EAAI",
+    "ScienceDirect Publication: Expert Systems with Applications": "ESWA",
+    "ScienceDirect Publication: Information Fusion": "IF",
+    "ScienceDirect Publication: NeuroImage": "NI",
+    # IEEE
+    "IEEE Transactions on Medical Imaging - new TOC": "TMI",
+    "IEEE Transactions on Pattern Analysis and Machine Intelligence - new TOC": "TPAMI",
+    "IEEE Transactions on Image Processing - new TOC": "TIP",
+    "IEEE Transactions on Biomedical Engineering - new TOC": "TBME",
+    "IEEE Journal of Biomedical and Health Informatics - new TOC": "JBHI",
+      # Wiley
+    "Wiley: Medical Physics: Table of Contents": "MP",
+      # arXiv
     "cs.CV updates on arXiv.org": "arXiv-CV",
     "eess.IV updates on arXiv.org": "arXiv-IV",
+    "cs.LG updates on arXiv.org": "arXiv-ML",
 }
 
 def get_journal_abbr(journal_name):
