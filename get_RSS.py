@@ -10,6 +10,27 @@ from email.utils import parsedate_to_datetime
 OUTPUT_FILE = "filtered_feed.xml"
 MAX_ITEMS = 1000
 # ----------------
+# --- 期刊缩写映射 ---
+JOURNAL_ABBR = {
+    "ScienceDirect Publication: Medical Image Analysis": "MedIA",
+    "ScienceDirect Publication: Pattern Recognition": "PR",
+    "ScienceDirect Publication: Knowledge-Based Systems": "KBS",
+    "ScienceDirect Publication: Neural Networks": "NN",
+    "ScienceDirect Publication: Neurocomputing": "NC",
+    "ScienceDirect Publication: Computers in Biology and Medicine": "CBM",
+    "IEEE Transactions on Medical Imaging": "TMI",   
+    "IEEE Transactions on Pattern Analysis and Machine Intelligence": "TPAMI",
+    "IEEE Journal of Biomedical and Health Informatics": "JBHI",
+    "cs.CV updates on arXiv.org": "arXiv-CV",
+    "eess.IV updates on arXiv.org": "arXiv-IV",
+}
+
+def get_journal_abbr(journal_name):
+    if journal_name in JOURNAL_ABBR:
+        return JOURNAL_ABBR[journal_name]
+        # 移除常见前缀
+    short = journal_name.replace("ScienceDirect Publication: ", "")
+    return short[:15] if len(short) > 15 else short
 
 def load_config(filename, env_var_name=None):
     """(保持你之前的 load_config 代码不变)"""
@@ -132,7 +153,8 @@ def generate_rss_xml(items):
     for item in items:
         title = item['title']
         if not item.get('is_old', False):
-            title = f"[{item['journal']}] {item['title']}"
+             abbr = get_journal_abbr(item['journal'])
+             title = f"[{abbr}] {item['title']}"
             
         # --- 关键修改：清洗数据 ---
         clean_title = remove_illegal_xml_chars(title)
