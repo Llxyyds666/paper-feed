@@ -1,70 +1,77 @@
-# Medical Image Analysis 医学图像分析相关期刊
+# FA基二维钙钛矿太阳能电池相关期刊
 
-## ===== 顶刊（中科院1区）=====
+## ===== 高相关期刊（合并.rtf高频）=====
 
-# Medical Image Analysis (Elsevier)
-https://rss.sciencedirect.com/publication/science/13618415
+# Adv. Funct. Mater. (Wiley)
+https://onlinelibrary.wiley.com/feed/16163028/most-recent
 
-# IEEE Transactions on Medical Imaging (TMI)
-https://ieeexplore.ieee.org/rss/TOC42.XML
+# ACS Appl. Energy Mater. (ACS)
+https://pubs.acs.org/action/showFeed?type=etoc&feed=rss&jc=aaemcq
 
-# IEEE Trans. on Pattern Analysis and Machine Intelligence (TPAMI)
-https://ieeexplore.ieee.org/rss/TOC34.XML
+# Chem. Eng. J. / Chemical Engineering Journal (Elsevier)
+https://rss.sciencedirect.com/publication/science/13858947
 
-# Pattern Recognition (Elsevier)
-https://rss.sciencedirect.com/publication/science/00313203
+# Small (Wiley)
+https://onlinelibrary.wiley.com/feed/16136829/most-recent
 
-# Expert Systems with Applications (Elsevier)
-https://rss.sciencedirect.com/publication/science/09574174
+# Adv. Energy Mater. (Wiley)
+https://onlinelibrary.wiley.com/feed/16146840/most-recent
 
-# Knowledge-Based Systems (Elsevier)
-https://rss.sciencedirect.com/publication/science/09507051
+# ACS Appl. Mater. Interfaces (ACS)
+https://pubs.acs.org/action/showFeed?type=etoc&feed=rss&jc=aamick
 
-# Neural Networks (Elsevier)
-https://rss.sciencedirect.com/publication/science/08936080
+# Adv. Mater. (Wiley)
+https://onlinelibrary.wiley.com/feed/15214095/most-recent
 
-# Information Fusion (Elsevier)
-https://rss.sciencedirect.com/publication/science/15662535
+# Sol. RRL (Wiley)
+https://onlinelibrary.wiley.com/feed/2367198X/most-recent
 
-## ===== 高质量期刊（中科院2区）=====
+# J. Mater. Chem. A (RSC)
+http://feeds.rsc.org/rss/ta
 
-# IEEE Journal of Biomedical and Health Informatics (JBHI)
-https://ieeexplore.ieee.org/rss/TOC6221020.XML
+# Angew. Chem. Int. Ed. (Wiley)
+https://onlinelibrary.wiley.com/feed/15213773/most-recent
 
-# IEEE Trans. on Image Processing (TIP)
-https://ieeexplore.ieee.org/rss/TOC83.XML
+# ACS Energy Lett. (ACS)
+https://pubs.acs.org/action/showFeed?type=etoc&feed=rss&jc=aelccp
 
-# IEEE Trans. on Biomedical Engineering (TBME)
-https://ieeexplore.ieee.org/rss/TOC10.XML
+# Nano Energy (Elsevier)
+https://rss.sciencedirect.com/publication/science/22112855
 
-# Neurocomputing (Elsevier)
-https://rss.sciencedirect.com/publication/science/09252312
+# J. Am. Chem. Soc. (ACS)
+https://pubs.acs.org/action/showFeed?type=etoc&feed=rss&jc=jacsat
 
-# Computers in Biology and Medicine (Elsevier)
-https://rss.sciencedirect.com/publication/science/00104825
+# Joule (Cell Press)
+https://www.cell.com/joule/inpress.rss
 
-# Artificial Intelligence in Medicine (Elsevier)
-https://rss.sciencedirect.com/publication/science/09333657
+# J. Energy Chem. (Elsevier)
+https://rss.sciencedirect.com/publication/science/20954956
 
-# Engineering Applications of Artificial Intelligence (Elsevier)
-https://rss.sciencedirect.com/publication/science/09521976
+# ACS Nano (ACS)
+https://pubs.acs.org/action/showFeed?type=etoc&feed=rss&jc=ancac3
 
-# Biomedical Signal Processing and Control (Elsevier)
-https://rss.sciencedirect.com/publication/science/17468094
+# Energy Environ. Sci. (RSC)
+http://feeds.rsc.org/rss/ee
 
-# NeuroImage (Elsevier)
-https://rss.sciencedirect.com/publication/science/10538119
+# J. Phys. Chem. C (ACS)
+https://pubs.acs.org/action/showFeed?type=etoc&feed=rss&jc=jpccck
 
-# Medical Physics (Wiley)
-https://aapm.onlinelibrary.wiley.com/feed/24734209/most-recent
+# Nano-Micro Lett. (Springer, search RSS)
+https://link.springer.com/search.rss?query=*&facet-journal-id=40820&sortOrder=newest
 
-## ===== 预印本（覆盖顶会）=====
+## ===== 顶刊/综合高影响 =====
 
-# arXiv - Computer Vision (覆盖 CVPR/ICCV/ECCV/MICCAI 等会议预印本)
-https://rss.arxiv.org/rss/cs.CV
+# Nature Energy
+http://feeds.nature.com/nenergy/rss/current
 
-# arXiv - Image and Video Processing (医学影像相关)
-https://rss.arxiv.org/rss/eess.IV
+# Nature Communications
+https://www.nature.com/ncomms.rss
 
-# arXiv - Machine Learning
-https://rss.arxiv.org/rss/cs.LG
+# Nature Materials
+https://www.nature.com/nmat.rss
+
+# Nature Photonics
+https://www.nature.com/nphoton.rss
+
+# Nano Letters (ACS)
+https://pubs.acs.org/action/showFeed?type=etoc&feed=rss&jc=nalefd
