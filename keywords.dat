@@ -1,32 +1,23 @@
-  # ===== 通用医学图像分割 =====
-  medical image segmentation
-  medical imaging AND segmentation
-  biomedical image segmentation
+# ===== 主题核心 =====
+formamidinium AND perovskite AND solar cell
+formamidinium AND perovskite AND photovoltaic
+formamidinium AND 2d AND perovskite
+formamidinium AND quasi-2d
+formamidinium AND quasi 2d
+formamidinium AND ruddlesden-popper
+formamidinium AND dion–jacobson
+fapbi3 AND perovskite
+fa-based AND perovskite AND solar cell
+fa-based AND 2d AND perovskite
 
-  # ===== 息肉/肠镜 =====
-  polyp
-  colonoscopy
-  Kvasir
-  CVC-ClinicDB
-  CVC-ColonDB
-  ETIS-Larib
+# ===== 2D 结构关键词 =====
+quasi-2d perovskite AND solar cell
+quasi 2d perovskite AND solar cell
+2d perovskite AND solar cell
+2d perovskite AND photovoltaic
+low-dimensional perovskite AND solar cell
+layered perovskite AND solar cell
 
-  # ===== 乳腺超声 =====
-  breast AND ultrasound
-  breast AND segmentation
-  BUSI
-  breast lesion
-
-  # ===== 皮肤病变 =====
-  skin lesion
-  ISIC
-  skin cancer AND segmentation
-
-  # ===== 腺体 =====
-  gland segmentation
-  GlaS
-
-  # ===== 其他常见数据集 =====
-  Synapse
-  BraTS
-  LiTS
+# ===== 结构类型 =====
+ruddlesden-popper AND perovskite AND solar cell
+dion–jacobson AND perovskite AND solar cell
